@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: #4ECDC4;
+}
+
+#login-page {
+   max-width: 500px;
+   padding: 30px;
+   margin-top: 2rem;
+   border-radius: 5px;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);;
+}
+
+#logo {
+    margin: auto;
+    width: 200px;
+    display: block;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}

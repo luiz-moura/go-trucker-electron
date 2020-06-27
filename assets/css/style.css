@@ -1,0 +1,210 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+#nav-header {
+    text-transform: uppercase;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.brand-logo {
+    height: 100%;
+    overflow: hidden;
+}
+
+#logo-image {
+    max-height: 100%;
+    padding: 5px 0;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    box-sizing: content-box;
+    margin: 2rem auto;
+    display: block;
+}
+
+#avatar img {
+    width: 100%;
+}
+
+#avatar-m {
+    box-sizing: content-box;
+    display: flex;
+}
+
+.subtitle {
+    text-transform: uppercase;
+}
+
+#new-route {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#new-route > .subtitle {
+    margin: 0 1rem !important;
+}
+
+.switch label .lever {
+    margin: 0 1rem 0 0;
+}
+
+label {
+    font-size: 1.2rem !important;
+}
+
+#route {
+    margin-top: 2rem;
+}
+
+.weather {
+    border-radius: 10px 10px 0 0;
+    text-transform: uppercase;
+}
+
+.finish {
+    margin-top: 2rem !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-2 {
+    margin-top: 3rem !important;
+}
+
+.mt-3 {
+    margin-top: 3rem !important;
+}
+
+.mb-0 {
+    margin-bottom: 0rem !important;
+}
+
+.mb-2 {
+    margin-bottom: 2rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+table.striped > tbody > tr:nth-child(2n + 1) {
+    background-color: rgba(242, 242, 242, 0.05) !important;
+}
+
+.white-text a {
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #map {
+        height: 280px !important;
+    }
+    .rt-current {
+        margin: 0 !important;
+    }
+}
+
+/*
+** Cards
+*/
+
+.card-image {
+    display: flex;
+}
+
+.card .card-title.hidden {
+    text-indent: -9999px;
+}
+
+.card .card-image .card-badge {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding: 0.2em 24px 0.8em 24px;
+    color: #fff;
+    z-index: 2;
+}
+
+.card .card-image .card-badge .material-icons {
+    position: relative;
+    margin-right: 8px;
+    top: 7px;
+}
+
+.card .card-image .card-badge + .card-title {
+    padding-bottom: 66px;
+}
+
+.card.horizontal .card-image .card-badge {
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+.card.horizontal .card-image .card-badge .material-icons {
+    display: none;
+}
+
+.card-action {
+    white-space: nowrap;
+}
+
+/*
+** Progress
+*/
+
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #4caf50;
+    height: 30px;
+    width: 0;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 68%;
+    }
+}
